@@ -1,0 +1,132 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1rem 10rem;
+}
+
+.container {
+    border-radius: 30px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 50px 50px;
+    box-sizing: border-box;
+    width: min(80%, 55rem);
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 13px;
+}
+
+.section-1 {
+    margin-top: 40px;
+    margin-bottom   : 40px;
+}
+
+.section-1 h3{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    padding-left: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time {
+    list-style-position: outside;
+    padding-left: 3rem;  
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 21px;
+}
+
+.preparation-time li {
+    color: black;
+    padding-left: 25px;
+    font-size: 19px;
+}
+
+.preparation-time li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+strong {
+    font-weight: 700;
+}
+
+.section-2 {
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 40px;
+}
+
+.section-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 19px;
+    list-style-position: outside;
+    padding-left: 1.5rem;
+}
+
+.section-2 li {
+    padding-left: 20px;
+}
+
+.section-2 li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.section-3 {
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 40px;
+}
+
+.section-3 ol {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 19px;
+    list-style-position: outside;
+    padding-left: 1.5rem;
+}
+
+.section-3 li {
+    padding-left: 20px;
+}
+
+.section-3 li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
+
+table {
+    font-family: "Outfit", sans-serif;
+    margin-top: 30px;
+        
+    width: 100%;
+}
+
+table td {
+    font-size: 19px;
+    padding-left: 35px;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0 20px 35px ;
+}
+
+table td:last-child {
+    padding-left: 18rem;
+    font-weight: 700;
+    color: hsl(14, 45%, 36%);
+}
+
+table tr:last-child td {
+  border-bottom: none; 
+}
