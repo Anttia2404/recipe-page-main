@@ -136,17 +136,20 @@ table tr:last-child  {
 }
 
 @media (max-width: 480px) {
-  main {
-    padding: 1rem; 
-  }
-
   .container {
-    border-radius: 0;   
-    padding: 20px;      
-    width: 100%;        
+    position: relative;
+    border-radius: 0;
+    padding: 20px;
+    width: 100%;
+    overflow: hidden; /* giữ ảnh trong khung */
   }
 
-  img {
-    border-radius: 0;   
+  .container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;   /* phủ kín chiều ngang container */
+    height: auto;
+    border-radius: 0;
   }
 }
